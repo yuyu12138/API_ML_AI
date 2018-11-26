@@ -56,7 +56,7 @@ Document owner | 梁钰语
 
 
 ## User interaction and design
-- NOT YET
+- 
 
 
 ## Questions
