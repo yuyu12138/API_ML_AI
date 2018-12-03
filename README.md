@@ -32,7 +32,6 @@
 ### - 用户界面UI设计示意图
 ![image](https://github.com/yuyu12138/API_ML_AI/blob/master/image/index.png)
 
-
 ## 不做Not Doing
 - 可添加用户旅游足迹的标记
 - 可编辑词条/资料
