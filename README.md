@@ -26,7 +26,7 @@
 发现识别图片出来的资料有误 | 同上
 
 ## 使用者交互及设计
-![image]()
+![image](https://github.com/yuyu12138/API_ML_AI/blob/master/image/youshuo_lct.png)
 
 ### - 用户界面UI设计示意图
 ![image](https://github.com/yuyu12138/API_ML_AI/blob/master/image/index.png)
