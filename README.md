@@ -26,9 +26,8 @@
 发现识别图片出来的资料有误 | 同上
 
 ## 使用者交互及设计
-### - 用户界面使用流程图
-#### 1. [游说_说](https://github.com/yuyu12138/API_ML_AI/blob/master/image/shuo.jpg)
-#### 2. [游说_我的](https://github.com/yuyu12138/API_ML_AI/blob/master/image/my.jpg)
+![image]()
+
 ### - 用户界面UI设计示意图
 ![image](https://github.com/yuyu12138/API_ML_AI/blob/master/image/index.png)
 
