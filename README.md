@@ -43,11 +43,11 @@
 ## 交互及界面设计
 - #### 产品结构思维导图
 ![image](https://github.com/yuyu12138/API_ML_AI/blob/master/image/youshuolct.png)
-- #### API调用流程示意图
+- #### 部分API调用流程示意图
 1. #### 语音合成API（以语音解说景点为例）
 ![image](https://github.com/yuyu12138/API_ML_AI/blob/master/image/yuyin.jpg)
-- #### 用户界面UI设计示意图
-![image]()
+2. #### 地点查询API（以搜索景区地图内景点为例）
+![image](https://github.com/yuyu12138/API_ML_AI/blob/master/image/chaxun.jpg)
 
 ## API的输出入展示
 - 暂无，等待完善
