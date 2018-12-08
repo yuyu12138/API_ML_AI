@@ -31,16 +31,21 @@
  - 所以国内自助导游类/具有旅游解说功能的旅游出行软件在市场上有很大的空白。
  
 ----- 
- ## 将会应用到的AI功能 
+ ## 主要将会应用到的AI功能 
 - [百度AI_语音技术_语音合成](http://ai.baidu.com/tech/speech/tts)
 - [高德地图_Web服务_搜索POI](https://lbs.amap.com/api/webservice/guide/api/search/#scene)
-- ......
+- [高德地图_隐藏地图上的文字标注](https://lbs.amap.com/dev/demo/map-text#Android)
+- [高德地图_多信息弹窗/气泡效果](https://lbs.amap.com/dev/demo/multiple-infowindows#Android)
+- [高德地图_地图选点](https://lbs.amap.com/dev/demo/place-choose#Android)
+- [高德地图_地点查询](https://lbs.amap.com/dev/demo/place-search#Android)
+- .......
 
 ## 交互及界面设计
 - #### 产品结构思维导图
 ![image](https://github.com/yuyu12138/API_ML_AI/blob/master/image/youshuolct.png)
 - #### API调用流程示意图
-![image]()
+1. #### 语音合成API（以语音解说景点为例）
+![image](https://github.com/yuyu12138/API_ML_AI/blob/master/image/yuyin.jpg)
 - #### 用户界面UI设计示意图
 ![image]()
 
