@@ -46,7 +46,7 @@
 - #### 部分API调用流程示意图
 1. #### 语音合成API（以语音解说景点为例）
 ![image](https://github.com/yuyu12138/API_ML_AI/blob/master/image/yuyin.jpg)
-2. #### 地点查询API（以搜索景区地图内景点为例）
+#### 2. 地点查询API（以搜索景区地图内景点为例
 ![image](https://github.com/yuyu12138/API_ML_AI/blob/master/image/chaxun.jpg)
 
 ## API的输出入展示
