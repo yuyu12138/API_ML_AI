@@ -49,8 +49,8 @@
 ![image](https://github.com/yuyu12138/API_ML_AI/blob/master/image/chaxun.jpg)
 
 ##产品原型
-- [首页](http://127.0.0.1:32767/start.html#p=%E9%A6%96%E9%A1%B5&g=1)
-- [目的地](http://127.0.0.1:32767/start.html#p=%E7%9B%AE%E7%9A%84%E5%9C%B0&g=1)
+- [首页](file:///C:/Users/samsung/Desktop/%E6%B8%B8%E8%AF%B4app/index.html#g=1)
+- [目的地](file:///C:/Users/samsung/Desktop/%E6%B8%B8%E8%AF%B4app/index.html#g=1)
 - [目的地_省内检索](http://127.0.0.1:32767/start.html#p=%E7%9B%AE%E7%9A%84%E5%9C%B0&g=1)
 - [目的地_省内检索_具体景点页面](http://127.0.0.1:32767/start.html#p=%E5%85%B7%E4%BD%93%E6%99%AF%E7%82%B9%E7%95%8C%E9%9D%A2&g=1)
 
