@@ -48,11 +48,11 @@
 #### 2. 地点查询API（以搜索景区地图内景点为例
 ![image](https://github.com/yuyu12138/API_ML_AI/blob/master/image/chaxun.jpg)
 
-##产品原型
-- [首页](file:///C:/Users/samsung/Desktop/%E6%B8%B8%E8%AF%B4app/index.html#g=1)
-- [目的地](file:///C:/Users/samsung/Desktop/%E6%B8%B8%E8%AF%B4app/index.html#g=1)
-- [目的地_省内检索](http://127.0.0.1:32767/start.html#p=%E7%9B%AE%E7%9A%84%E5%9C%B0&g=1)
-- [目的地_省内检索_具体景点页面](http://127.0.0.1:32767/start.html#p=%E5%85%B7%E4%BD%93%E6%99%AF%E7%82%B9%E7%95%8C%E9%9D%A2&g=1)
+## 产品原型展示
+- [首页](https://161013029.github.io/44/#g=1&p=%E9%A6%96%E9%A1%B5)
+- [目的地](https://161013029.github.io/44/#g=1&p=%E7%9B%AE%E7%9A%84%E5%9C%B0)
+- [目的地_省内检索](https://161013029.github.io/44/#g=1&p=%E7%9C%81%E5%86%85%E6%A3%80%E7%B4%A2)
+- [目的地_省内检索_具体景点页面](https://161013029.github.io/44/#g=1&p=%E5%85%B7%E4%BD%93%E6%99%AF%E7%82%B9%E7%95%8C%E9%9D%A2)
 
 ## API使用水平
 - 暂无，等待完善
