@@ -5,7 +5,7 @@
 > #### **梁钰语**
 
 ## 产品定位
->  #### 一款旅游解说app，主要运用百度语音合成和和高德地图的搜索POI的人工智能，帮助用户在景区旅游的时候提供景点解说功能，让用户的旅程充满有趣的知识和故事。
+>  #### 一款旅游解说app，主要运用百度语音合成和和高德地图的搜索POI的人工智能，帮助喜欢自由行的用户在景区旅游的时候提供景点解说功能，充当云导游的角色，让用户的旅程充满有趣的知识和故事。
 
 ## 目标用户
 适用人群 | 旅游行为特点 | 其他
@@ -20,8 +20,12 @@
 ## 需求列表与人工智能API加值
 用户故事 | 重要性 | 备注 | 人工智能API加值
 ----|----|----|----
- 我不想在游览 景点的时候看手机文章，但是同时我也想了解 | 非常重要 | 文章正文具有语音朗读功能，并且能后台播放 | 百度AI_语音技术_语音合成
- 到达旅游目的地后，我想了解附近景点的相关开放信息和景点故事| 非常重要 |定位当前位置，点击地图上显示的标记地点查看相关资料 | 高德地图_Web服务_搜索POI等
+ 我不想在游览 景点的时候看手机文章，但是同时我也想了解 | 非常重要 | 文章正文具有语音朗读功能，并且能后台播放 | [百度AI_语音技术_语音合成](http://ai.baidu.com/tech/speech/tts)
+ 到达旅游目的地后，我想了解附近景点的相关开放信息和景点故事| 非常重要 |定位当前位置，点击地图上显示的标记地点查看相关资料 | - [高德地图_Web服务_搜索POI](https://lbs.amap.com/api/webservice/guide/api/search/#scene)
+- [高德地图_隐藏地图上的文字标注](https://lbs.amap.com/dev/demo/map-text#Android)
+- [高德地图_多信息弹窗/气泡效果](https://lbs.amap.com/dev/demo/multiple-infowindows#Android)
+- [高德地图_地图选点](https://lbs.amap.com/dev/demo/place-choose#Android)
+- [高德地图_地点查询](https://lbs.amap.com/dev/demo/place-search#Android)
  
  ## 市场/竞争
  - 国内市面上大部分旅游出行类软件功能都大同小异：提供出行资讯、衣食住行等硬件服务，或者充当旅游行程助手（如携程旅行、马蜂窝旅游、飞猪、爱彼迎等），这类功能的软件市场已经比较饱和，竞争也大。
@@ -30,14 +34,6 @@
  - 所以国内自助导游类/具有旅游解说功能的旅游出行软件在市场上有很大的空白。
  
 ----- 
- ## 主要将会应用到的AI功能 
-- [百度AI_语音技术_语音合成](http://ai.baidu.com/tech/speech/tts)
-- [高德地图_Web服务_搜索POI](https://lbs.amap.com/api/webservice/guide/api/search/#scene)
-- [高德地图_隐藏地图上的文字标注](https://lbs.amap.com/dev/demo/map-text#Android)
-- [高德地图_多信息弹窗/气泡效果](https://lbs.amap.com/dev/demo/multiple-infowindows#Android)
-- [高德地图_地图选点](https://lbs.amap.com/dev/demo/place-choose#Android)
-- [高德地图_地点查询](https://lbs.amap.com/dev/demo/place-search#Android)
-- .......
 
 ## 交互及界面设计
 - #### 产品结构思维导图
