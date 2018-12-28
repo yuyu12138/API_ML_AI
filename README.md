@@ -91,6 +91,7 @@ CUID = "123456PYTHON";
 
 ```
 > ## 百度语音合成API的Python调用代码
+[→ 点击此处](https://github.com/yuyu12138/API_ML_AI/blob/master/YouShuo/tts.py)
 
 
 
