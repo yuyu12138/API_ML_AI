@@ -91,17 +91,66 @@ CUID = "123456PYTHON";
 
 ```
 > ## 百度语音合成API的Python调用代码
-[→ 点击此处](https://github.com/yuyu12138/API_ML_AI/blob/master/YouShuo/tts.py)
+[→ 点击此处查看](https://github.com/yuyu12138/API_ML_AI/blob/master/YouShuo/tts.py)
 
 
+> ## 高德地点查询(Java)
+- ###配合输入提示功能使用，提升 POI 搜索的用户体验：根据输入提示功能返回的提示词，若提示词的 id  为空，说明该提示词不是 POI，需以该输入词为关键词进行 POI 搜索，查询具体的地点；若 id 不为空，则是真实存在的地点，直接可以在地图上展示。
+```
+<code class="java hljs"><span class="hljs-meta">@Override</span>
+<span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onActivityResult</span><span class="hljs-params">(<span class="hljs-keyword">int</span> requestCode, <span class="hljs-keyword">int</span> resultCode, Intent data)</span> </span>{
+    <span class="hljs-keyword">super</span>.onActivityResult(requestCode, resultCode, data);
+    <span class="hljs-keyword">if</span> (resultCode == RESULT_CODE &amp;&amp; data
+        != <span class="hljs-keyword">null</span>) {
+        mAMap.clear();
+        Tip tip = data.getParcelableExtra(Constants.EXTRA_TIP);
+        <span class="hljs-keyword">if</span> (tip.getPoiID() == <span class="hljs-keyword">null</span> || tip.getPoiID().equals(<span class="hljs-string">""</span>)) {
+            doSearchQuery(tip.getName());
+        } <span class="hljs-keyword">else</span> {
+            addTipMarker(tip);
+        }
+    }
+```
+
+> ## 高德地图多信息弹窗/气泡效果(Java)
+```
+aMap.setOnCameraChangeListener(new AMap.OnCameraChangeListener() {
+        @Override
+        public void onCameraChange(CameraPosition cameraPosition) {
+
+        }
+
+        @Override
+        public void onCameraChangeFinish(CameraPosition cameraPosition) {
+            if (!isItemClickAction) {
+                locationMarker.setPosition(cameraPosition.target);
+            }
+        }
+    });
+```
 
 ## API使用比较分析
-1. 百度的语音合成API：
+- 1. 百度的语音合成API：
 - 语音识别、合成接口调用量无限。QPS识别默认为10，合成为100，可以在百度云控制台申请提高配额
 - 语音合成指定某个字的发音：语音合成接口，支持自主标音，通过在所需合成的文字后，增加音标的方式，比如，想把“重音”中的重字，指定合成"chong"的读音时，需将合成文字改为“重（chong2）音”，其中2表示2声，可以根据数字变化调节音调，1对应1声，2对应2声，3对应3声，4对应4声。
 - 语音合成目前支持中文普通话播报、中英文混读播报，音色支持男声、女声、度丫丫、度逍遥。
 - 不过合成文本长度必须小于1024字节，如果本文长度较长，可以采用多次请求的方式。文本长度不可超过限制。
-2. 高德地图
+
+- 2. 高德地图&百度地图
+
+比较内容|百度地图API|高德地图API
+---|---|---
+是否免费|免费|免费
+定位功能|百度智能定位服务帮助广大开发者更好解决"你在哪里这个难题；支持GPS、WiFi、基站融合定位；完美支持各类应用开发者对位罝获取的诉求|高德地图定位通过GPS定位，基站定位，混合定位三种定位模式为用户提供高精度的定位服务，开发者可以通过获取用户位置，设置地理围栏，实现高精度推送，通过用户分布合理布詈资源：实现效益最大化。
+地图功能|帮助用户轻松实现全平台地图展示；支持3D高清地图、全景图、实时路况图、静态图；自定义个性化地图样式，打造专属地图；|高德开放平台提供2D, 3D,卫星多种地图形式供开发者选择，无论基于哪种平台，都可以通过高德开放平台提供的API和SDK轻松的完成地图的构建工作。同时我们还提供强大的地图再开发能力，全面的地图数据支持，离线在线两种使用方式，多种地图交互模式，满足各个场景下对地图的需求。
+数据服务功能（搜索）|提供位罝描述、地点检索、地址解析、推荐上车点等数据服务；百度&用户隐私地理数据融合，满足个性化数据 使用需求分析；为用户提供基于地理位罝的搜索功能， 如地点关键宇搜索，周边附近搜索，多边形范围内搜索，地点与坐标点之间 的正逆地理编码搜索，以及搜索输入提示，天气查询等常见搜索功能。|
+
+### 所以从开发角度评估地图API 易用、稳定、效率、业务支持的话：
+- 易用性、稳定 高德地图API > 百度地图API
+- 业务支持 百度地图API > 高德地图API
+- 综合能力高德地图比百度地图专业精准，所以选择使用高德地图API
+
+
 ## 问题
 问题（如何让用户了解这个特性） |  结果（沟通已达成的决定）
 ---|---
