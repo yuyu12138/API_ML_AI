@@ -30,7 +30,7 @@
 用户故事 | 重要性 | 备注 | 人工智能API加值
 ----|----|----|----
  我不想在游览 景点的时候看手机文章，但是同时我也想了解 | 非常重要 | 文章正文具有语音朗读功能，并且能后台播放 | [百度AI_语音技术_语音合成](http://ai.baidu.com/tech/speech/tts)
- 到达旅游目的地后，我想了解附近景点的相关开放信息和景点故事| 非常重要 |定位当前位置，点击地图上显示的标记地点查看相关资料 | 1、[高德地图_Web服务_搜索POI](https://lbs.amap.com/api/webservice/guide/api/search/#scene)搜索景区；2、 [高德地图_隐藏地图上的文字标注](https://lbs.amap.com/dev/demo/map-text#Android)和[高德地图_多信息弹窗/气泡效果](https://lbs.amap.com/dev/demo/multiple-infowindows#Android)将应用到景点地图页，显示景区地图全景的时候会标记里面每一个景点，隐藏文字标注，放大地图后会有一个小的信息弹窗，用户可以直接点击语音播放标记播放经典故事，也可以点击弹窗浏览文字内容；3、 [高德地图_地图选点](https://lbs.amap.com/dev/demo/place-choose#Android) [高德地图_地点查询](https://lbs.amap.com/dev/demo/place-search#Android)应用与用户浏览景区地图时查找某个景点的解说语音：用户可以在景区内输入景点关键字搜索，点击返回结果就能在景区定位该景点
+ 到达旅游目的地后，我想了解附近景点的相关开放信息和景点故事| 非常重要 |定位当前位置，点击地图上显示的标记地点查看相关资料 | 1、[高德地图_Web服务_搜索POI](https://lbs.amap.com/api/webservice/guide/api/search/#scene)搜索景区；2、 [高德地图_隐藏地图上的文字标注](https://lbs.amap.com/dev/demo/map-text#Android)和[高德地图_多信息弹窗/气泡效果](https://lbs.amap.com/dev/demo/multiple-infowindows#Android)将应用到景点地图页，显示景区地图全景的时候会标记里面每一个景点，隐藏文字标注，放大地图后会有一个小的信息弹窗，用户可以直接点击语音播放标记播放经典故事，也可以点击弹窗浏览文字内容；3、 [高德地图_地图选点](https://lbs.amap.com/dev/demo/place-choose#Android) [高德地图_地点查询](https://lbs.amap.com/dev/demo/place-search#Android) 应用于用户浏览景区地图时查找某个景点的解说语音：用户可以在景区内输入景点关键字搜索，点击返回结果就能在景区定位该景点
  
 ----- 
 
