@@ -23,8 +23,8 @@ else:
     from urllib2 import URLError
     from urllib import urlencode
 
-API_KEY = 'UuKfHCemGimXSX4GTTL2pzlk'
-SECRET_KEY = 'hTxooU53kzHEB4TF9Fa9MasWaPpZsupL'
+API_KEY = 'UuKfHCemGimXSX4GTTL2xxxx'
+SECRET_KEY = 'hTxooU53kzHEB4TF9Fa9MasWaPpZxxxx'
 
 TEXT = "欢迎使用百度语音合成。";
 
