@@ -100,7 +100,7 @@ CUID = "123456PYTHON";
 
 
 > ### 高德地点查询(Java)
-- ### 配合输入提示功能使用，提升 POI 搜索的用户体验：根据输入提示功能返回的提示词，若提示词的 id  为空，说明该提示词不是 POI，需以该输入词为关键词进行 POI 搜索，查询具体的地点；若 id 不为空，则是真实存在的地点，直接可以在地图上展示。
+- #### 配合输入提示功能使用，提升 POI 搜索的用户体验：根据输入提示功能返回的提示词，若提示词的 id  为空，说明该提示词不是 POI，需以该输入词为关键词进行 POI 搜索，查询具体的地点；若 id 不为空，则是真实存在的地点，直接可以在地图上展示。
 ```
 <code class="java hljs"><span class="hljs-meta">@Override</span>
 <span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onActivityResult</span><span class="hljs-params">(<span class="hljs-keyword">int</span> requestCode, <span class="hljs-keyword">int</span> resultCode, Intent data)</span> </span>{
