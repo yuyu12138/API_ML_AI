@@ -50,8 +50,9 @@
 - [目的地_省内检索_具体景点页面](https://161013029.github.io/44/#g=1&p=%E5%85%B7%E4%BD%93%E6%99%AF%E7%82%B9%E7%95%8C%E9%9D%A2)
 
 
+## API输出入展示
 
-> ## 测试百度语音合成rest api识别接口流程
+> ### 测试百度语音合成rest api识别接口流程
 ### 修改tts.py
 
 从网页中申请的应用获取appKey和appSecret
@@ -62,20 +63,21 @@ API_KEY = 'UuKfHCemGimXSX4GTTL2pzlk'
 SECRET_KEY = 'hTxooU53kzHEB4TF9Fa9MasWaPpZsupL'
 ```
 
-## 运行 tts.py，进行合成
+### 运行 tts.py，进行合成
 
-命令为 python tts.py
+命令为tts.py
 
 结果在result.mp3，如果遇见错误，结果在error.txt
 
 其中
-
+```
 - Content-Type: audio/mp3，表示合成成功，可以播放MP3 result.mp3
 - Content-Type: application/json 表示错误   error.txt打开可以看到错误信息的json
+```
 
 ### 修改合成参数
 
-```python
+```
 TEXT = "欢迎使用百度语音";
 
 #发音人选择, 0为普通女声，1为普通男生，3为情感合成-度逍遥，4为情感合成-度丫丫，默认为普通女声
@@ -90,11 +92,11 @@ VOL = 5;
 CUID = "123456PYTHON";
 
 ```
-> ## 百度语音合成API的Python调用代码
+> ### 百度语音合成API的Python调用代码
 [→ 点击此处查看](https://github.com/yuyu12138/API_ML_AI/blob/master/YouShuo/tts.py)
 
 
-> ## 高德地点查询(Java)
+> ### 高德地点查询(Java)
 - ### 配合输入提示功能使用，提升 POI 搜索的用户体验：根据输入提示功能返回的提示词，若提示词的 id  为空，说明该提示词不是 POI，需以该输入词为关键词进行 POI 搜索，查询具体的地点；若 id 不为空，则是真实存在的地点，直接可以在地图上展示。
 ```
 <code class="java hljs"><span class="hljs-meta">@Override</span>
@@ -112,7 +114,7 @@ CUID = "123456PYTHON";
     }
 ```
 
-> ## 高德地图多信息弹窗/气泡效果(Java)
+> ### 高德地图多信息弹窗/气泡效果(Java)
 ```
 aMap.setOnCameraChangeListener(new AMap.OnCameraChangeListener() {
         @Override
