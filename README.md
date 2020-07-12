@@ -45,11 +45,7 @@
 
 ## 产品原型展示
 ### [原型文档下载处](https://github.com/yuyu12138/API_ML_AI/tree/master/YouShuo)
-### 具体产品原型页面展示
-- [首页](https://161013029.github.io/44/#g=1&p=%E9%A6%96%E9%A1%B5)
-- [目的地_省内检索_具体景点页面](https://161013029.github.io/44/#g=1&p=%E5%85%B7%E4%BD%93%E6%99%AF%E7%82%B9%E7%95%8C%E9%9D%A2)
-
-
+### 
 
 ## API输出入展示
 
