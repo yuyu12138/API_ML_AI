@@ -45,7 +45,8 @@
 
 ## 产品原型展示
 ### [原型文档下载处](https://github.com/yuyu12138/API_ML_AI/tree/master/YouShuo)
-### 
+### [原型页面展示](https://161013029.github.io/44/#g=1&p=%E9%A6%96%E9%A1%B5)
+
 
 ## API输出入展示
 
